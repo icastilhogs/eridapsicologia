@@ -6,7 +6,6 @@ sections:
     title: "\"Ao tocar uma alma\_humana, seja apenas\_outra alma humana\""
     subtitle: '- Carl Gustav Jung'
     content: "Conheça\_os\_benefícios\_da\_terapia\_humanista\_existencial\_fenomenológica?\_Marque\_uma\_sessão\_com\_a\_psicóloga\_Érida\_Bastos\_Castilho\_(CRP\_05/51653)\_ou\_clique\_em\_saiba\_mais.\n"
-    image: /images/hero.jpg
     image_alt: Humanidade
     actions:
       - type: action
