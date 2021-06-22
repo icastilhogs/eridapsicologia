@@ -152,10 +152,6 @@ sections:
         label: Marcar agora
         url: /signup
         style: primary
-  - type: section_posts
-    section_id: recent-posts
-    title: Últimos artigos
-    background: white
   - section_id: contact
     background: gray
     features:
