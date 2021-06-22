@@ -12,6 +12,7 @@
 
 #hero {
   background: url(./../../static/images/hero.jpg) no-repeat 65% 50%;
+  background-size: contain;
   color: $color-secondary;  
 
   &.block-title {
