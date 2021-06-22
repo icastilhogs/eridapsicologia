@@ -1,4 +1,4 @@
-# ✨ eridapsicologia ✨
+# ✨ royal-hickory ✨
 
 <img src="https://themes.stackbit.com/images/azimuth-demo-1024x768.png" width="600">
 
@@ -9,18 +9,18 @@ You can [create a site](https://app.stackbit.com/create?theme=https://github.com
 <details>
         <summary>🎨 &nbsp;<strong>Look</strong></summary>
         <ul>
-                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/starter-unibit&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Ultra customizable starter. A developers&#39; favorite.</a></li>
-                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/app-unibit&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Mobile application landing page</a></li>
-                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/agency-unibit&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Showcase of agency work</a></li>
+                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/exto-unibit&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">A portfolio theme with a blog</a></li>
+                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/event-unibit&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Virtual or IRL conference</a></li>
+                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/diy-unibit&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">A &quot;do it yourself&quot; Stackbit theme</a></li>
                 </ul>
 </details>
 
 <details>
         <summary>✏️ &nbsp;<strong>CMS</strong></summary>
         <ul>
-                <li><a href="https://app.stackbit.com/create?cms=datocms&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Dato CMS</a></li>
-                <li><a href="https://app.stackbit.com/create?cms=nocms&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Git</a></li>
                 <li><a href="https://app.stackbit.com/create?cms=forestry&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Forestry</a></li>
+                <li><a href="https://app.stackbit.com/create?cms=nocms&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Git</a></li>
+                <li><a href="https://app.stackbit.com/create?cms=sanity&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Sanity</a></li>
                 </ul>
 </details>
 
@@ -71,4 +71,4 @@ If you need a hand, make sure to check the [Stackbit support page](https://stack
 
 ## Colophon
 
-Generated at `2021-06-21T20:40:18.880Z` by Stackbit version `0.3.53`.
+Generated at `2021-04-02T23:58:03.904Z` by Stackbit version `0.3.50`.

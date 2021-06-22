@@ -1,4 +1,51 @@
+#hero .block-preview img {
+  text-align: right !important;
+  height: 100vh;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#faq {
+  background: url(./../../static/images/footer.svg) no-repeat 0 300px;
+  background-size: cover;
+}
+
+#publico {
+  z-index: 99;
+  margin-top: -8em;
+  padding-top: 14em;
+  background: url(./../../static/images/publico.png) no-repeat 0 -5em;
+  background-size: contain;
+  min-height: 50vw;
+
+  @media only screen and (max-width: 800px) {
+    background-position: center -9em;
+    background-size: cover;
+    min-height: 100vw;
+  }
+
+  & .block-title {
+    color: $color-primary;
+  }
+}
+
+.block-content.abordagem {
+  background: url(./../../static/images/abordagem.svg) no-repeat center;
+  background-size: 47vw auto;
+  background-clip: padding-box;
+  min-height: 45vw;
+  padding: 0 10vw;
+
+  @media only screen and (max-width: 800px) {
+    background-size: 90vw auto;
+    min-height: 84vw;
+  }
+}
+
 .block-title {
+  font-style: italic;
+  font-weight: 600;
+  color: $color-secondary;
   font-size: 2em;
 
   @media only screen and (min-width: 601px) {
@@ -49,12 +96,9 @@
 
   a {
     font-size: 0.88889em;
-    font-weight: bold;
     margin: 0 0.375em 1.125em;
-
-    .font-fira-sans & {
-      font-weight: 600;
-    }
+    font-family: "Gotham Book", sans-serif;
+    font-style: italic;
   }
 }
 
@@ -76,10 +120,12 @@
     align-items: center;
     -ms-flex-pack: center;
     justify-content: center;
+    font-family: "Gotham Book", sans-serif;
   }
 
   .cell {
     text-align: center;
+    font-family: "Gotham Book", sans-serif;
   }
 }
 
@@ -102,6 +148,7 @@
   .text-block,
   .features-block {
     .cell {
+      font-family: "Gotham Book", sans-serif;
       &:only-child {
         .underline {
           &:after {
@@ -122,6 +169,7 @@
       flex: 0 0 41.666%;
       max-width: 41.666%;
       text-align: left;
+      font-family: "Gotham Book", sans-serif;
 
       &:not(:only-child) {
         .block-buttons {
@@ -139,7 +187,7 @@
 
   .hero-block,
   .text-block,
-  .block-item:nth-child(2n+1) {
+  .block-item:nth-child(2n + 1) {
     .grid {
       -ms-flex-direction: row-reverse;
       flex-direction: row-reverse;
@@ -152,7 +200,7 @@
     }
   }
 
-  .block-item:nth-child(2n+2) {
+  .block-item:nth-child(2n + 2) {
     .block-preview {
       &:not(:only-child) {
         padding-right: 3.33333em;
@@ -304,6 +352,7 @@
 .plan-content {
   font-size: 0.88889em;
   line-height: 1.5;
+  font-family: "Gotham Book", sans-serif;
 
   ul,
   ol {
@@ -342,10 +391,10 @@
 .review-text {
   padding-top: 2.25em;
   position: relative;
+  font-family: "Gotham Book", sans-serif;
 
   &:before {
     color: $color-primary;
-    content: "\201C";
     display: block;
     font-size: 3.5em;
     font-weight: bold;
@@ -361,22 +410,21 @@
 }
 
 .review-footer {
-  -ms-flex-align: center;
-  align-items: center;
-  display: -ms-flexbox;
-  display: flex;
+  text-align: center;
+  display: block;
   margin-top: 1em;
 }
 
 .review-avatar {
-  border-radius: 50%;
+  border-radius: 10%;
   height: 60px;
-  margin-right: 0.9375em;
   width: 60px;
+  margin-bottom: 1.5em;
 }
 
 .review-author {
   color: $gray-700;
+  text-align: center;
   font-size: inherit;
   font-weight: bold;
   line-height: 1.4;
@@ -443,6 +491,7 @@
       display: flex;
       -ms-flex-direction: row-reverse;
       flex-direction: row-reverse;
+      font-family: "Gotham Book", sans-serif;
     }
 
     .post-thumbnail {
@@ -459,6 +508,7 @@
     .post-body {
       -ms-flex-positive: 1;
       flex-grow: 1;
+      font-family: "Gotham Book", sans-serif;
     }
   }
 }
@@ -526,8 +576,9 @@
   border-top: 0;
   border-radius: 0 0 $border-radius $border-radius;
   box-shadow: $box-shadow;
-  font-size: 0.88889em;
+  font-size: 0.72889em;
   padding: 1.125em 0.9375em;
+  font-family: "Gotham Book", sans-serif;
 }
 
 .handorgel__header--open.handorgel__header--opened {
@@ -568,14 +619,20 @@
 
   &.bg-accent {
     background: $color-primary;
-    background: -webkit-gradient(linear, left top, right top, from($color-primary), to($color-secondary));
-    background: linear-gradient(to right,$color-primary, $color-secondary);
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from($color-primary),
+      to($color-secondary)
+    );
+    background: linear-gradient(to right, $color-primary, $color-secondary);
     color: #fff;
 
     a {
       &:not(.button) {
         color: #fff;
-  
+
         &:hover {
           color: #fff;
           opacity: 0.8;
@@ -608,7 +665,7 @@
       background: #fff;
       border-color: #fff;
       color: $color-primary;
-  
+
       &.secondary {
         background: transparent;
         color: #fff;

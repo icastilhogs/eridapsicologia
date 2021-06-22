@@ -9,7 +9,7 @@ export default function toUrl(pages, pagePath) {
         pagePath = pagePath.replace(/\.\w+$/, '');
         const page = getPage(pages, pagePath);
         if (!page) {
-            throw new Error('could not find page with path: ' + pagePath);
+            throw new Error('A página não foi encontrada no caminho especificado: ' + pagePath);
         }
         return page.url;
     }

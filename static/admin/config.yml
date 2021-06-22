@@ -1,8 +1,10 @@
 backend:
   name: git-gateway
   branch: preview
+local_backend: true
 media_folder: static/images
 public_folder: /images
+logo_url: /images/Logo_Primary.svg
 collections:
   - name: config
     label: Site Configuration
@@ -44,11 +46,10 @@ collections:
             name: base_font
             label: Font
             required: true
-            default: nunito-sans
+            default: brandon-grotesque
             options:
-              - fira-sans
-              - nunito-sans
-              - system-sans
+              - brandon-grotesque
+              - gotham-book
           - widget: object
             name: header
             label: Header Configuration

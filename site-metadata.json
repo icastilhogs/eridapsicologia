@@ -1,41 +1,40 @@
 {
-    "title": "Azimuth",
+    "title": "Érida Psicologia",
     "palette": "blue",
-    "base_font": "nunito-sans",
+    "base_font": "brandon-grotesque",
     "header": {
         "type": "header",
-        "logo_img": "images/logo.svg",
+        "logo_img": "/images/Logo.svg",
         "logo_img_alt": "Logo",
         "has_nav": true,
         "nav_links": [
             {
                 "type": "action",
-                "label": "Home",
-                "url": "/",
+                "label": "Abordagem",
+                "url": "#abordagem",
                 "style": "link"
             },
             {
                 "type": "action",
-                "label": "Features",
-                "url": "/features",
+                "label": "Benefícios",
+                "url": "#features",
                 "style": "link"
             },
             {
-                "type": "action",
-                "label": "Pricing",
-                "url": "/pricing",
-                "style": "link"
+                "label": "Sobre",
+                "url": "#about",
+                "style": "link",
+                "has_icon": false,
+                "icon": "arrow-left",
+                "icon_position": "left",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
             },
             {
                 "type": "action",
-                "label": "Style Guide",
-                "url": "/style-guide",
-                "style": "link"
-            },
-            {
-                "type": "action",
-                "label": "Sign Up",
-                "url": "/signup",
+                "label": "marcar sessão",
+                "url": "tel:+5522999746820",
                 "style": "primary"
             }
         ]
@@ -44,20 +43,13 @@
         "type": "footer",
         "sections": [
             {
-                "type": "footer_text",
-                "image": "images/logo-alt.svg",
-                "image_alt": "Footer logo",
-                "image_url": "/",
-                "content": "Stackbit theme demo"
-            },
-            {
                 "type": "footer_nav",
-                "title": "Company",
+                "title": "Consultório",
                 "nav_links": [
                     {
                         "type": "action",
-                        "label": "About Us",
-                        "url": "/about",
+                        "label": "Sobre",
+                        "url": "/sobre",
                         "style": "link"
                     },
                     {
@@ -68,29 +60,23 @@
                     },
                     {
                         "type": "action",
-                        "label": "Sign Up",
-                        "url": "/signup",
-                        "style": "link"
-                    },
-                    {
-                        "type": "action",
-                        "label": "Contact",
-                        "url": "/contact",
+                        "label": "Marcar sessão",
+                        "url": "/tel:+5522999746820",
                         "style": "link"
                     }
                 ]
             },
             {
                 "type": "footer_nav",
-                "title": "Community",
+                "title": "Social",
                 "nav_links": [
                     {
                         "type": "action",
-                        "label": "Twitter",
-                        "url": "https://twitter.com/",
+                        "label": "Instagram",
+                        "url": "https://instagram.com/eridabastospsi",
                         "style": "link",
                         "has_icon": true,
-                        "icon": "twitter",
+                        "icon": "instagram",
                         "icon_position": "left"
                     },
                     {
@@ -101,22 +87,13 @@
                         "has_icon": true,
                         "icon": "linkedin",
                         "icon_position": "left"
-                    },
-                    {
-                        "type": "action",
-                        "label": "GitHub",
-                        "url": "https://github.com/",
-                        "style": "link",
-                        "has_icon": true,
-                        "icon": "github",
-                        "icon_position": "left"
                     }
                 ]
             },
             {
                 "type": "footer_form",
-                "title": "Subscribe",
-                "content": "Stay up to date with our latest developments.",
+                "title": "Receba novidades",
+                "content": "Receba nossas novidades no e-mail",
                 "form_id": "contactForm",
                 "hide_labels": true,
                 "form_fields": [
@@ -125,29 +102,29 @@
                         "input_type": "email",
                         "name": "email",
                         "label": "Email",
-                        "default_value": "Enter email address",
+                        "default_value": "Seu melhor e-mail",
                         "is_required": true
                     }
                 ],
-                "submit_label": "Subscribe"
+                "submit_label": "quero"
             }
         ],
         "has_nav": true,
         "nav_links": [
             {
                 "type": "action",
-                "label": "Terms of Service",
-                "url": "/terms-of-service",
+                "label": "Termos de uso",
+                "url": "/termos-de-uso",
                 "style": "link"
             },
             {
                 "type": "action",
-                "label": "Privacy Policy",
-                "url": "/privacy-policy",
+                "label": "Política de privacidade",
+                "url": "/politica-de-privacidade",
                 "style": "link"
             }
         ],
-        "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=azimuth&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>."
+        "content": "Copyright &copy; Érida Bastos Castilho. Todos os direitos reservados. Criado por Eupoiese LTDA."
     },
-    "domain": "https://eridapsicologia-0f889.netlify.app"
+    "domain": "https://royal-hickory-7af55.netlify.app"
 }
