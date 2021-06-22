@@ -23,7 +23,7 @@ sections:
         type: action
   - section_id: publico
     title: Para quem é a terapia?
-    background: whites
+    background: white
     pricing_plans:
       - details: >
           ## Adolescentes
