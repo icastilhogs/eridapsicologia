@@ -4,7 +4,7 @@
     "base_font": "brandon-grotesque",
     "header": {
         "type": "header",
-        "logo_img": "/images/Logo.svg",
+        "logo_img": "/images/logoAsset 3@6x.png",
         "logo_img_alt": "Logo",
         "has_nav": true,
         "nav_links": [
