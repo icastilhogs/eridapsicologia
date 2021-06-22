@@ -4,17 +4,17 @@ sections:
   - type: section_hero
     section_id: hero
     title: "\"Ao tocar uma alma\_humana, seja apenas\_outra alma humana\""
-    subtitle: "- Carl Gustav Jung"
+    subtitle: '- Carl Gustav Jung'
     content: "Conheça\_os\_benefícios\_da\_terapia\_humanista\_existencial\_fenomenológica?\_Marque\_uma\_sessão\_com\_a\_psicóloga\_Érida\_Bastos\_Castilho\_(CRP\_05/51653)\_ou\_clique\_em\_saiba\_mais.\n"
-    image: /images/photo-1522973717924-b10fe4e185cc.jpg
+    image: /images/hero.jpg
     image_alt: Humanidade
     actions:
       - type: action
         label: marcar sessão
         style: primary
-        url: "#contact"
+        url: '#contact'
       - label: saiba mais
-        url: "#features"
+        url: '#features'
         style: link
         has_icon: false
         icon: arrow-left
@@ -178,7 +178,7 @@ sections:
     type: section_features
   - section_id: faq
     title: FAQ (Perguntas Frequentes)
-    subtitle: "Quando nunca fizeram terapia online, os pacientes geralmente perguntam:"
+    subtitle: 'Quando nunca fizeram terapia online, os pacientes geralmente perguntam:'
     background: gray
     faq_items:
       - question: Como é feito o pagamento do atendimento online?
@@ -204,26 +204,26 @@ seo:
   title: Érida Psicologia
   description: Psicologia existencial humanista
   extra:
-    - name: "og:type"
+    - name: 'og:type'
       value: website
       keyName: property
-    - name: "og:title"
+    - name: 'og:title'
       value: Érida Psicologia
       keyName: property
-    - name: "og:description"
+    - name: 'og:description'
       value: Psicologia existencial humanista
       keyName: property
-    - name: "og:image"
+    - name: 'og:image'
       value: images/hero.png
       keyName: property
       relativeUrl: true
-    - name: "twitter:card"
+    - name: 'twitter:card'
       value: summary_large_image
-    - name: "twitter:title"
+    - name: 'twitter:title'
       value: Stackbit Azimuth Theme
-    - name: "twitter:description"
+    - name: 'twitter:description'
       value: The preview of the Azimuth theme
-    - name: "twitter:image"
+    - name: 'twitter:image'
       value: images/hero.png
       relativeUrl: true
 template: landing
