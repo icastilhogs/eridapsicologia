@@ -21,6 +21,7 @@ sections:
         new_window: false
         no_follow: false
         type: action
+    image: /images/nada.png
   - section_id: publico
     title: Para quem é a terapia?
     background: white
