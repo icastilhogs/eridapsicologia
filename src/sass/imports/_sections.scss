@@ -36,7 +36,7 @@
 
 .block-content.abordagem {
   background: url(./../../static/images/abordagem.svg) no-repeat center;
-  background-size: 47vw auto;
+  background-size: contain;
   background-clip: padding-box;
   min-height: 45vw;
   padding: 0 10vw;
