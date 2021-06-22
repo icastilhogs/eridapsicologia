@@ -13,7 +13,8 @@
 #hero {
   background: url(./../../static/images/hero.jpg) no-repeat center;
   color: $color-secondary;  
-   & .block-title {
+
+  &.block-title {
     color: $color-primary;
 }
 
